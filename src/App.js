@@ -38,7 +38,7 @@ function App() {
                 src={country.flags.png}
                 alt={country.name.common + ' flag'}
               />
-              <h3>{country.name.common}</h3>
+              <h2>{country.name.common}</h2>
             </div>
           ))
         ) : (
